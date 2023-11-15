@@ -1,0 +1,78 @@
+#root {
+  padding: 2rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 25vw;
+  margin: 30px 60px 30px 0px
+}
+
+.card img {
+  width: 100%;
+  opacity: 0.7;
+  min-width: 200px;
+}
+
+.card h3,
+.card p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card h3 {
+  padding: 1rem;
+  font-size: 2.2rem;
+}
+
+.card p {
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 1.5rem;
+}
+
+.games-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-details {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+}
+
+.game-details img {
+  width: 100%;
+  opacity: 0.3;
+  position: absolute;
+  margin-top: 0;
+}
+.game-details p {
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.87);
+  width: 90vw;
+  padding-bottom: 30px;
+}
+
+header a {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+header a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
