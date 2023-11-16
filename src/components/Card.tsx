@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Game } from '../types';
 
 type GameProps = {
@@ -6,14 +5,12 @@ type GameProps = {
 };
 
 function Card({ game }: GameProps) {
-  const { id, name, developer } = game;
+  console.log(game);
   return (
     <div className="card">
-      <Link to={ `/game/${id}` }>
-        <img src={ `../src/assets/${id}.jpg` } alt={ name } />
-      </Link>
-      <h3>{name}</h3>
-      <p>{developer}</p>
+      {/* renderizar imagem a partir do id */}
+      {/* renderizar h3 com o name do game */}
+      {/* renderizar p com developer do game */}
     </div>
   );
 }
