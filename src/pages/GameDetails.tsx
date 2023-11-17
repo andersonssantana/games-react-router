@@ -1,11 +1,23 @@
 import { useParams } from 'react-router-dom';
-import games from '../services/data';
+import { useEffect, useState } from 'react';
+import { Game } from '../types';
 
 function GameDetails() {
   const { id } = useParams();
-  const game = games.find((e) => e.id === id);
+  const [game, setGame] = useState<Game | null>(null);
 
-  if (!game) return <p>Game not found</p>;
+  useEffect(() => {
+    const getGame = async () => {
+      const response = await fetch(`http://localhost:3000/${id}`);
+      const gameData = await response.json();
+      setGame(gameData);
+    };
+    getGame();
+  }, [id]);
+
+  if (!game) return <p>Loading...</p>;
+
+  if (!game.id) return <p>Game Not Found</p>;
 
   return (
     <div className="game-details">
