@@ -1,0 +1,94 @@
+{
+  "games": [
+  {
+    "id": "alan-wake-ii",
+    "name": "Alan Wake 2",
+    "developer": "Remedy Entertainment"
+  },
+  {
+    "id": "baldurs-gate-3",
+    "name": "Baldur's Gate 3",
+    "developer": "Larian Studios"
+  },
+  {
+    "id": "marvels-spider-man-2",
+    "name": "Marvel's Spider-Man 2",
+    "developer": "Insomniac Games"
+  },
+  {
+    "id": "resident-evil-4",
+    "name": "Resident Evil 4",
+    "developer": "Capcom"
+  },
+  {
+    "id": "super-mario-bros-wonder",
+    "name": "Super Mario Bros. Wonder",
+    "developer": "Nintendo"
+  },
+  {
+    "id": "the-legend-of-zelda-tears-of-the-kingdom",
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "developer": "Nintendo"
+  }
+],
+  "alan-wake-ii": {
+    "id": "alan-wake-ii",
+    "name": "Alan Wake 2",
+    "genre": "Psychological horror",
+    "story": "Alan Wake 2 is a sequel to the 2010 psychological horror game Alan Wake. The game follows Alan Wake as he investigates a series of disappearances in Bright Falls, Washington.",
+    "gameplay": "Alan Wake 2 is a third-person action-adventure game with a focus on psychological horror. The game features a dark and atmospheric world, as well as a variety of weapons and abilities to use against the game's enemies.",
+    "developer": "Remedy Entertainment",
+    "publisher": "Epic Games",
+    "platforms": ["PC", "Xbox Series X/S", "PlayStation 5"]
+  },
+  "baldurs-gate-3": {
+    "id": "baldurs-gate-3",
+    "name": "Baldur's Gate 3",
+    "genre": "RPG",
+    "story": "Baldur's Gate 3 is a sequel to the Dungeons & Dragons role-playing game Baldur's Gate II: Shadows of Amn. The game follows a group of adventurers as they explore the world of Faerûn.",
+    "gameplay": "Baldur's Gate 3 is a turn-based role-playing game with a focus on tactical combat. The game features a variety of classes, races, and abilities to choose from, as well as a large and open world to explore.",
+    "developer": "Larian Studios",
+    "publisher": "Larian Studios",
+    "platforms": ["PC", "PlayStation 5", "Google Stadia"]
+  },
+  "marvels-spider-man-2": {
+    "id": "marvels-spider-man-2",
+    "name": "Marvel's Spider-Man 2",
+    "genre": "Action",
+    "story": "Marvel's Spider-Man 2 is a sequel to the 2018 action-adventure game Marvel's Spider-Man. The game follows Peter Parker and Miles Morales as they face a new villain, Kraven the Hunter.",
+    "gameplay": "Marvel's Spider-Man 2 is a third-person action-adventure game with a focus on web-slinging and combat. The game features a new skill tree for each character, as well as a variety of new gadgets and abilities.",
+    "developer": "Insomniac Games",
+    "publisher": "Sony Interactive Entertainment",
+    "platforms": ["PlayStation 5"]
+  },
+  "resident-evil-4": {
+    "id": "resident-evil-4",
+    "name": "Resident Evil 4",
+    "genre": "Horror",
+    "story": "Resident Evil 4 is a remake of the 2005 survival horror game Resident Evil 4. The game follows Leon S. Kennedy as he travels to a remote European village to rescue the President's daughter.",
+    "gameplay": "Resident Evil 4 is a third-person survival horror game with a focus on action and exploration. The game features updated graphics and gameplay, as well as a new story mode.",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "platforms": ["PlayStation 5", "Xbox Series X/S", "PC"]
+  },
+  "super-mario-bros-wonder": {
+    "id": "super-mario-bros-wonder",
+    "name": "Super Mario Bros. Wonder",
+    "genre": "Platformer",
+    "story": "Super Mario Bros. Wonder is a sequel to the 2017 3D platformer Super Mario Odyssey. The game follows Mario, Luigi, Peach, Daisy, Yoshi, and Toad as they travel to a new world to stop Bowser from stealing the Star Rod.",
+    "gameplay": "Super Mario Bros. Wonder is a 3D platformer with a focus on exploration and platforming. The game features new power-ups, worlds, and enemies.",
+    "developer": "Nintendo",
+    "publisher": "Nintendo",
+    "platforms": ["Nintendo Switch"]
+  },
+  "the-legend-of-zelda-tears-of-the-kingdom": {
+    "id": "the-legend-of-zelda-tears-of-the-kingdom",
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "genre": "Action-adventure",
+    "story": "The Legend of Zelda: Tears of the Kingdom is a sequel to the 2022 action-adventure game The Legend of Zelda: Breath of the Wild. The game follows Link as he travels to a new land to stop a mysterious villain from destroying the world.",
+    "gameplay": "The Legend of Zelda: Tears of the Kingdom is a third-person action-adventure game with a focus on exploration and combat. The game features new areas such as the skies above the vast lands of Hyrule, as well as a variety of new enemies and bosses.",
+    "developer": "Nintendo",
+    "publisher": "Nintendo",
+    "platforms": ["Nintendo Switch"]
+  }
+}
